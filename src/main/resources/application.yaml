@@ -1,0 +1,9 @@
+server:
+  port: 8081
+spring:
+  application.name: cnss-droit-backend
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8090/realms/amo-realm
